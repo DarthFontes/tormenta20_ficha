@@ -1,16 +1,42 @@
-# tormenta20_ficha
+# Gerador de Fichas T20
 
-A new Flutter project.
+Um aplicativo em Flutter para criação e exportação de fichas de personagem no sistema **Tormenta 20: Edição Jogo do Ano**.
 
-## Getting Started
+O usuário pode:
+- Escolher atributos com distribuição por pontos.
+- Selecionar raça, classe, perícias, poderes e magias.
+- Verifica pré-requisitos automaticamente.
+- Exportar a ficha preenchida em formato PDF, usando um modelo editável.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🔧 Tecnologias Usadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter](https://flutter.dev/) (SDK cruzado para Android, iOS e Web)
+- [Dart](https://dart.dev/) (linguagem principal)
+- [pdf](https://pub.dev/packages/pdf) + [printing](https://pub.dev/packages/printing) (para geração de PDFs)
+- [provider](https://pub.dev/packages/provider) (gerenciamento de estado futuro)
+- Assets e layout base baseados no sistema Tormenta 20
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚧 Status do Projeto
+
+🛠️ Em desenvolvimento.
+
+Funcionalidades atuais:
+- [ ] Menu inicial com opções de criação
+- [ ] Sistema de atributos por pontos
+- [ ] Escolha de raça
+- [ ] Escolha de classe
+- [ ] Gerenciamento de perícias, poderes e magias
+- [ ] Exportação para PDF
+
+---
+
+## 📝 Licença
+
+Este projeto é open-source, mas respeita os direitos autorais de **Tormenta 20**, criado por **Jambô Editora**.  
+O sistema é usado aqui de forma não-comercial, para fins de estudo e automação de fichas.
+
+---
