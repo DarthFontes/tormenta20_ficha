@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:window_manager/window_manager.dart';
+import 'tela_criacao_personagem.dart';
+
 void main() async {
    WidgetsFlutterBinding.ensureInitialized();
 
@@ -61,7 +63,12 @@ class MenuInicial extends StatelessWidget {
             const SizedBox(height: 16),
             ElevatedButton.icon(
               onPressed: () {
-                
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const TelaCriacaoPersonagem(),
+                  ),
+                );
               },
               icon: const Icon(Icons.add),
               label: const Text('Criar Novo Personagem'),

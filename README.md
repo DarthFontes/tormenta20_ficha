@@ -25,10 +25,11 @@ O usuário pode:
 🛠️ Em desenvolvimento.
 
 Funcionalidades atuais:
-- [ ] Menu inicial com opções de criação
-- [ ] Sistema de atributos por pontos
+- [x] Menu inicial com opções de criação
+- [x] Sistema de atributos por pontos
 - [ ] Escolha de raça
 - [ ] Escolha de classe
+- [ ] Escolha de origem
 - [ ] Gerenciamento de perícias, poderes e magias
 - [ ] Exportação para PDF
 
