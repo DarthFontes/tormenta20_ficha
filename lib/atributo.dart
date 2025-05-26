@@ -17,8 +17,7 @@ class Atributo {
     this.bonusPoder = 0,
   });
 
-  int get modificadorTotal =>
-      modificadorBase + bonusRacial + bonusPoder + bonusItem;
+  int get modificadorTotal => modificadorBase + bonusRacial + bonusPoder + bonusItem;
 
   int get custo {
     switch (modificadorBase) {
